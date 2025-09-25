@@ -22,9 +22,9 @@ const illustration = {
 const greeting = {
   username: "vinuth s",
   title: "Hi all, I'm vinuth s",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+subTitle: emoji(
+  "A passionate Full Stack Developer 🚀 with experience in building Web and Mobile applications. Skilled in Frontend technologies like React, JavaScript, HTML, CSS, and Tailwind, and proficient in Backend development using Node.js and Express. Strong foundation in programming languages such as Java, C, and C++. Experienced in working with databases like MongoDB and SQL. Also knowledgeable in AWS cloud services and iOS app development."
+),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,16 +49,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO LOVES BUILDING MODERN, SCALABLE SOLUTIONS ACROSS THE STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Crafting modern, responsive Frontend UIs using React, JavaScript, HTML, CSS, and Tailwind CSS"),
+    emoji("⚡ Developing robust Backend APIs and services with Node.js and Express"),
+    emoji("⚡ Working with both SQL and NoSQL databases like MongoDB and MySQL for scalable data storage solutions"),
+    emoji("⚡ Creating Progressive Web Applications (PWA) and Single Page Applications (SPA)"),
+    emoji("⚡ Integrating and deploying applications using AWS, Firebase, and DigitalOcean"),
+    emoji("⚡ Building and maintaining iOS mobile apps with seamless backend integrations"),
+    emoji("⚡ Delivering full-cycle Web Development – from design and development to deployment and optimization")
   ],
+
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -183,7 +185,7 @@ const workExperiences = {
   companylogo: require("./assets/images/facebookLogo.png"),  // replace with your logo as needed
   date: "Oct 2022 – Present",
   desc: `Professional Summary:
-Results-driven Frontend Developer with 2.5+ years of experience in designing and developing responsive, high-performance web applications. Skilled in React.js, Redux, JavaScript, HTML/CSS, and modern UI frameworks. Strong understanding of software development principles and modular design.
+Results-driven Frontend Developer with 3+ years of experience in designing and developing responsive, high-performance web applications. Skilled in React.js, Redux, JavaScript, HTML/CSS, and modern UI frameworks. Strong understanding of software development principles and modular design.
 
 Work Experience Highlights:
 - Developed and maintained a compliance management portal handling multiple user roles.
@@ -229,7 +231,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -369,7 +371,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -388,7 +390,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -401,7 +403,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -425,7 +427,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
